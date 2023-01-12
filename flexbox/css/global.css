@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+blockquote,
+dt,
+dd,
+dl,
+section,
+article {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-family: "Nunito", sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 4px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px 8px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #7c7c7c;
+  font-size: 1.125rem;
+  margin-top: 60px;
+}

@@ -1,12 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Projeto criado no curso de flexbox da Origamid"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Flexbog</title>
+  </head>
+  <body>
+    <div class="superinfo-bg">
+      <div class="container">
+        <ul class="superinfo">
+          <li>
+            <span>Seg / Sex - 08:00 às 18:00</span>
+          </li>
+          <li>
+            <a href="tel:47999999999">47 9 9999-9999</a>
+          </li>
+          <li>
+            <span>Rua Ali perto, 304, Florianópolis - SC</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="menu-bg">
+      <nav class="menu container">
+        <div class="logo">
+          <a href="./">FlexBlog</a>
+        </div>
+        <ul>
+          <li>
+            <a href="#sobre">Sobre</a>
+          </li>
+          <li>
+            <a href="#produtos">Produtos</a>
+          </li>
+          <li>
+            <a href="#preco">Preço</a>
+          </li>
+          <li>
+            <a href="#qualidade">Qualidade</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="intro container">Novos valores e <br/>Propriedades de CSS</h1>
+    <section aria-label="Sobre" class="sobre container" id="sobre">
+      <div class="sobre-info">
+        <h2>Sobre</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nobis
+          nulla necessitatibus nostrum tempore iusto deserunt sint, eius culpa
+          illum mollitia quae, repellat harum architecto placeat, autem ea
+          repudiandae illo Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Eveniet nobis nulla necessitatibus nostrum tempore iusto
+          deserunt sint, eius culpa illum mollitia quae, repellat harum
+          architecto placeat, autem ea repudiandae illo.
+        </p>
+      </div>
+      <div class="sobre-imagens">
+        <img src="./img/sobre1.jpg" alt="mulher no tablet" />
+      </div>
+      <div class="sobre-imagens">
+        <img src="./img/sobre2.jpg" alt="mulher pintando" />
+      </div>
+    </section>
+    <section aria-label="Produtos" class="produtos container" id="produtos">
+      <h2>Produtos</h2>
+      <div>
+        <ul class="produtos-container">
+          <li class="produto-item purple">
+            <h3>Purple</h3>
+            <img src="./img/produtos1.jpg" alt="Mesa decorativa" />
+          </li>
+          <li class="produto-item pink">
+            <h3>Pink</h3>
+            <img src="./img/produtos2.jpg" alt="Items de fotografia" />
+          </li>
+          <li class="produto-item blue">
+            <h3>Blue</h3>
+            <img src="./img/produtos3.jpg" alt="Flores em cima da mesa" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section aria-label="Preços" class="preco container" id="preco">
+      <div class="preco-item">
+        <div class="preco-info">
+        <h2 class="cobre">Cobre</h2>
+        <span>R$ 19</span>
+      </div>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+        </ul>
+        <a href="#">COMPRAR</a>
+      </div>
+      <div class="preco-item">
+        <div class="preco-info">
+        <h2 class="prata">Prata</h2>
+        <span>R$ 39</span>
+      </div>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Compra exclusiva</li>
+        </ul>
+        <a href="#">COMPRAR</a>
+      </div>
+      <div class="preco-item">
+        <div class="preco-info">
+        <h2 class="ouro">Ouro</h2>
+        <span>R$ 79</span>
+        </div>
+        <ul>
+          <li>Planos Ilimitados</li>
+          <li>Acesso Restrito</li>
+          <li>Conteúdo Secreto</li>
+          <li>Suporte 24h</li>
+          <li>Compra exclusiva</li>
+          <li>Download dos itens</li>
+        </ul>
+        <a href="#">COMPRAR</a>
+      </div>
+    </section>
+    <section aria-label="Qualidade" class="qualidade container" id="qualidade">
+      <div class="qualidade-item">
+        <h2>Inteligente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla iste
+          earum unde ex sequi laborum molestiae, perspiciatis explicabo neque et
+          ducimus, laboriosam molestias sapiente eaque soluta debitis. Quidem,
+          tempora nam!
+        </p>
+      </div>
+      <div class="qualidade-item">
+        <h2>Compacto</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla iste
+          earum unde ex sequi laborum molestiae, perspiciatis explicabo neque et
+          ducimus, laboriosam molestias sapiente eaque soluta debitis. Quidem,
+          tempora nam! perspiciatis explicabo neque et ducimus.
+        </p>
+      </div>
+      <div class="qualidade-item">
+        <h2>Econômico</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla iste
+          earum unde ex sequi laborum molestiae, perspiciatis explicabo neque et
+          ducimus, laboriosam molestias sapiente eaque soluta debitis. Quidem,
+          tempora nam!
+        </p>
+      </div>
+      <div class="qualidade-item">
+        <h2>Transparente</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla iste
+          earum unde ex sequi laborum molestiae, perspiciatis explicabo neque et
+          ducimus, laboriosam molestias sapiente eaque soluta debitis. Quidem,
+          tempora nam!
+        </p>
+      </div>
+      <div class="qualidade-item">
+        <h2>Opaco</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla iste
+          earum unde ex sequi laborum molestiae, perspiciatis explicabo neque et
+          ducimus, laboriosam molestias sapiente eaque soluta debitis. Quidem,
+          tempora nam! perspiciatis explicabo neque et ducimus.
+        </p>
+      </div>
+      <div class="qualidade-item">
+        <h2>Sustentável</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla iste
+          earum unde ex sequi laborum molestiae, perspiciatis explicabo neque et
+          ducimus, laboriosam molestias sapiente eaque soluta debitis. Quidem,
+          tempora nam!
+        </p>
+      </div>
+    </section>
+    <section aria-label="newsletter" class="newsletter container" id="newsletter">
+      <div class="newsletter-info">
+        <h2>Newsletter</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <form action="./" class="newsletter-form">
+        <input type="email" placeholder="Seu e-mail" />
+        <button type="submit">Assinar</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <p>Flexbog© todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
