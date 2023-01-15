@@ -29,6 +29,9 @@ span {
   font-size: 1.125rem;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to right, #8844ee, #b07dfb);
+  padding: 30px;
+  color: #fff;
 }
 body{
   font-family: 'Vollkorn','Times New Roman', Times, serif;
@@ -36,4 +39,5 @@ body{
 img{
   display: block;
   max-width: 100%;
+  border-radius: 5px;
 }
